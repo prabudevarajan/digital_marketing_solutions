@@ -1,0 +1,182 @@
+.contact-area .thumb {
+  position: relative;
+  text-align: center;
+}
+
+.contact-area .thumb img {
+  position: relative;
+  left: 0;
+  margin-bottom: -120px;
+  max-width: 80%;
+}
+
+.contact-area .fixed-bg.left {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.contact-area .left-info .info-items {
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-area .left-info .info-items::after {
+  position: absolute;
+  right: -80px;
+  bottom: -50px;
+  content: "";
+  height: 200px;
+  width: 200px;
+  border: 25px solid #e7e7e7;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.contact-area .left-info .item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact-area .left-info .social li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.contact-area .left-info ul.social {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.contact-area .left-info .item i {
+  font-size: 40px;
+  margin-right: 25px;
+  display: inline-block;
+  color: #4628ba;
+  font-weight: 500;
+}
+
+.blue .contact-area .left-info .item i {
+  color: #4628ba;
+}
+
+.it-solution .contact-area .left-info .item i {
+  color: #0554f2;
+}
+
+.contact-area .left-info .item h5 {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-area .left-info .item p {
+  margin-bottom: 0;
+}
+
+.contact-area .left-info .item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-area .contact-items {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-area .contact-items .form-items {
+  padding-right: 35px;
+}
+
+.contact-area .contact-items .form-items h2 {
+  font-weight: 700;
+  margin-top: -8px;
+  margin-bottom: 30px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.1;
+}
+
+.contact-area .contact-items .form-items .form-group {
+  margin: 0;
+}
+
+.contact-area .contact-items .form-items h5 {
+  display: inline-block;
+  border-radius: 5px;
+  color: #4628ba!important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 25px;
+}
+
+.blue .contact-area .contact-items .form-items h5 {
+  color: #4628ba !important;
+}
+
+.it-solution .contact-area .contact-items .form-items h5 {
+  color: #0554f2 !important;
+}
+
+.contact-area .contact-items .form-items input,
+.contact-area .contact-items .form-items textarea {
+  border: none;
+  background: transparent;
+  border-radius: inherit;
+  border: 1px solid #e7e7e7;
+  padding: 20px 25px;
+  box-shadow: inherit;
+  min-height: 45px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.dark-layout .contact-area .contact-items .form-items input,
+.dark-layout .contact-area .contact-items .form-items textarea {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.contact-area .contact-items .form-items textarea {
+  min-height: 195px;
+}
+
+.contact-area .contact-items .form-items button {
+  display: inline-block;
+  padding: 15px 45px;
+  text-transform: capitalize;
+  font-weight: 900;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background: #4628ba;
+  border: none !important;
+  transition: all 0.35s ease-in-out;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.it-solution .contact-area .contact-items .form-items button {
+  background: #0554f2;
+}
+
+.blue .contact-area .contact-items .form-items button {
+  background: #4628ba;
+}
+
+.contact-area .contact-items .form-items button:hover {
+  background: #0e2258;
+}
+

@@ -1,0 +1,14 @@
+.default-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.bg-gray {
+    background-color: #ecf6fa;
+}

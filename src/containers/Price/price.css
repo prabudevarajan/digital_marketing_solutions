@@ -1,0 +1,227 @@
+.pricing-area .fixed-shape-bottom {
+  bottom: auto;
+  top: 120px;
+}
+
+.pricing-area .fixed-shape {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pricing-area .fixed-shape img {
+  width: 120%;
+  height: 120%;
+  max-width: 120%;
+}
+
+.pricing-area .pricing {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-area .pricing .shape {
+  position: absolute;
+  right: -200px;
+  bottom: -200px;
+  height: 400px;
+  width: 400px;
+  z-index: -1;
+}
+
+.pricing-area.default-padding.bg-gray {
+  position: inherit;
+}
+
+.pricing-area .pricing .single-item {
+  padding: 0;
+}
+
+.pricing-area .pricing .single-item:first-child .pricing-item {
+  padding-left: 0;
+}
+
+.pricing-area .pricing .single-item:last-child .pricing-item {
+  padding-right: 0;
+}
+
+.pricing-item {
+  box-shadow: 0 0 10px #cccccc;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 50px 15px;
+}
+
+.pricing-header h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #666666;
+}
+
+.pricing-header i {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 33px;
+  display: inline-block;
+  color: #ffffff;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-header i::after {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* background: url(../img/shape/circle-shape.png); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: -1;
+}
+
+.pricing-header h2 {
+  font-weight: 800;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+
+.pricing-header sup {
+  font-size: 24px;
+  top: -15px;
+  font-weight: 500;
+  margin-right: 3px;
+}
+
+.pricing-header h2 sub {
+  font-weight: 600;
+  font-size: 15px;
+  left: -14px;
+  text-transform: lowercase;
+}
+
+.pricing-header {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.pricing-item.active .pricing-header {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.pricing-area .single-item ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.pricing-item .footer {
+  margin-top: 20px;
+}
+
+.pricing-item li {
+  line-height: 40px;
+  text-transform: capitalize;
+  padding: 0 0px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-area .pricing-item li i {
+  margin-right: 15px;
+  color: #00a37b;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.pricing-area .pricing-footer {
+  margin-top: 30px;
+}
+
+.pricing-item li:nth-child(2n) {
+  background: #f9f9f9;
+}
+
+.btn.circle {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.pricing-footer a.btn-dark.effect:hover {
+  background: #4628ba;
+  color: #ffffff !important;
+  border-color: #4628ba;
+}
+
+.pricing-area .pricing .single-item:nth-child(2) {
+  z-index: 9;
+}
+
+.pricing-item.active {
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}
+
+/* Pricing Plain */
+
+.pricing-area.plain .pricing {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pricing-area.plain .pricing-item.active {
+  transform: inherit;
+}
+
+.pricing-area.plain .pricing .single-item {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.pricing-area.plain .pricing .single-item .pricing-item {
+  box-shadow: inherit;
+  border: 1px solid #e7e7e7;
+  text-align: left;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+}
+
+.pricing-area.plain .pricing .single-item .pricing-item ul {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+}
+
+.pricing-area.plain .pricing .single-item .pricing-item.active,
+.pricing-area.plain .pricing .single-item .pricing-item:hover {
+  border: 1px solid #ffffff;
+  box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
+  border-top: 3px solid #4628ba;
+}
+
+.software .pricing-area.plain .pricing .single-item .pricing-item.active,
+.software .pricing-area.plain .pricing .single-item .pricing-item:hover {
+  border-top: 3px solid #4ac4f3;
+}
+
+.pricing-area.plain .pricing .single-item .pricing-item .pricing-header {
+  text-align: left;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 30px;
+}

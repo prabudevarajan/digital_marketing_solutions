@@ -1,0 +1,150 @@
+
+.choose-us-area .thumb {
+    padding-left: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../assets/Images/aboutus.jpg');
+}
+
+.choose-us-area .info {
+  max-width: 600px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+.choose-us-area .info > h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4628ba;
+}
+
+.dark-layout .choose-us-area .info > h5 {
+  color: #cccccc;
+}
+
+.choose-us-area .info h2 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.choose-us-area .info .skill-items {
+    margin-top: 30px;
+}
+
+.choose-us-area .fun-factors .counter {
+  position: relative;
+}
+
+.choose-us-area .fun-factors .counter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0e2258;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+
+.dark-layout .choose-us-area .fun-factors .counter {
+  color: #ffffff;
+}
+
+.choose-us-area .fun-factors .counter .operator {
+  font-size: 30px;
+  margin-left: 2px;
+}
+
+.choose-us-area .fun-factors .fun-fact {
+    display: flex;
+    margin-top: 40px;
+    float: left;
+    margin-right: 30px;
+    border-right: 1px solid #dddddd;
+    padding-right: 30px;
+}
+
+.dark-layout .choose-us-area .fun-factors .fun-fact {
+  border-right-color: rgba(255, 255, 255, 0.4);
+}
+
+.choose-us-area .fun-factors .fun-fact:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+}
+
+.choose-us-area .skill-items .progress-box .progress .progress-bar span {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  background: #4628ba;
+  padding: 0px 8px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.choose-us-area .skill-items .progress-box .progress .progress-bar span::after {
+  position: absolute;
+  left: 5px;
+  bottom: -5px;
+  content: "";
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #4628ba;
+}
+
+.choose-us-area .statistics {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.choose-us-area .statistics .item {
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    border-right: 1px solid #e7e7e7;
+    padding-right: 50px;
+    float: left;
+}
+
+.dark-layout .choose-us-area .statistics .item {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.choose-us-area .statistics .item:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.choose-us-area .statistics .chart {
+    position: relative;
+    z-index: 1;
+}
+
+.choose-us-area .statistics .chart span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: #0e2258;
+}
+
+.dark-layout .choose-us-area .statistics .chart span {
+  color: #ffffff;
+}
+
+.choose-us-area .statistics .item h5 {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,245 @@
+.team-area .team-items .single-item {
+  margin-bottom: 30px;
+}
+
+.team-area .team-items .item img {
+  border-radius: 10px;
+}
+
+.team-area .team-items .single-item .item {
+  margin-right: 30px;
+}
+
+.team-area.mar-top-less .team-items .single-item .item {
+  margin-top: 0;
+}
+
+.team-area .team-items .single-item:nth-child(2) .item,
+.team-area .team-items .single-item:nth-child(5) .item {
+  margin: 0 15px;
+}
+
+.team-area .team-items .single-item:last-child .item,
+.team-area .team-items .single-item:nth-child(3) .item {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.team-area .team-items .thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.team-area .team-items .thumb .social ul {
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: 30px;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #cccccc;
+  list-style: none;
+}
+
+.dark-layout .bg-gray.team-area .team-items .thumb .social ul,
+.dark-layout .team-area .team-items .thumb .social ul {
+  background: #0d152e;
+  box-shadow: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.team-area .team-items .thumb .social li {
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.team-area .team-items .thumb .social li:first-child {
+  margin-top: 0;
+}
+
+.team-area .team-items .thumb .social li a {
+  display: block;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #f5f5f5;
+  font-size: 12px;
+}
+
+.dark-layout .team-area .team-items .thumb .social li a {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.team-area .team-items .thumb .social li:first-child a,
+.team-area .team-items .thumb .social li a:hover {
+  background: #4628ba;
+  color: #ffffff;
+}
+
+.it-solution .team-area .team-items .thumb .social li:first-child a,
+.it-solution .team-area .team-items .thumb .social li a:hover {
+  background: #4628ba;
+  color: #ffffff;
+}
+
+.blue .team-area .team-items .thumb .social li:first-child a,
+.blue .team-area .team-items .thumb .social li a:hover {
+  background: #4628ba;
+}
+
+.team-area .team-items .info {
+  padding-top: 20px;
+}
+
+.team-area .team-items .info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.team-area .team-items .info span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: -5px;
+}
+
+.dark-layout .team-area .team-items .info span {
+  color: #cccccc;
+}
+
+/* ============================================================== 
+       # Team Single
+  =================================================================== */
+
+.team-single-area .thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.team-single-area .thumb img {
+  border-radius: 8px;
+}
+
+.team-single-area .thumb .social ul {
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: 30px;
+  background: #ffffff;
+  padding: 10px 7px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.dark-layout .bg-gray.team-single-area .thumb .social ul {
+  background: #0d152e;
+  box-shadow: inherit;
+  border: 1px solid;
+}
+
+.team-single-area .thumb .social li {
+  text-transform: capitalize;
+  margin: 0 3px;
+}
+
+.team-single-area .thumb .social li:first-child {
+  margin-top: 0;
+}
+
+.team-single-area .thumb .social li a {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.team-single-area .thumb .social li:first-child a,
+.team-single-area .thumb .social li a:hover {
+  background: #4628ba;
+  color: #ffffff;
+}
+
+.blue .team-single-area .thumb .social li:first-child a,
+.blue .team-single-area .thumb .social li a:hover {
+  background: #4628ba;
+}
+
+.team-single-area .right-info ul li {
+  margin-top: 10px;
+  color: #4628ba;
+}
+
+.team-single-area .right-info ul {
+  margin-top: 25px;
+}
+
+.team-single-area .right-info ul li a {
+  color: #666666;
+  font-weight: 500;
+}
+
+.team-single-area .right-info ul li:first-child {
+  margin-top: 0;
+}
+
+.team-single-area .right-info ul li a:hover {
+  color: #4628ba;
+}
+
+.team-single-area .right-info {
+  padding-left: 50px;
+}
+
+.team-single-area .right-info h2 {
+  font-weight: 700;
+}
+
+.team-single-area .right-info span {
+  display: block;
+  color: #4628ba;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.team-single-area .social ul li {
+  display: inline-block;
+}
+
+.team-single-area .social ul li a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  background: #efefef;
+  text-align: center;
+  border-radius: 50%;
+  color: #4628ba;
+}
+
+.team-single-area .social ul li a:hover {
+  background: #4628ba;
+  color: #ffffff;
+}
+
+.team-single-area .social ul {
+  margin-top: 25px;
+}
+
+.team-single-area .bottom-info {
+  margin-top: 50px;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 50px;
+}
+
+.team-single-area .bottom-info .about-area.reverse {
+  padding-left: 35px;
+}
+
+.team-single-area .bottom-info h2 {
+  font-weight: 700;
+}
+
+.team-single-area .bottom-info p:last-child {
+  margin: 0;
+}
